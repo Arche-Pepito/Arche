@@ -595,7 +595,7 @@ noscript {
 
 #name,
 #work {
-    font-size: 8rem;
+    font-size: 35px;
     width: fit-content
 }
 
@@ -2016,4 +2016,17 @@ footer {
         height: fit-content;
         margin-top: 100px;  
     }
+}
+
+/* Example CSS to remove hover effects */
+.navbar-tabs-li a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Use the default text color */
+}
+
+.navbar-tabs-li a:hover {
+    /* Remove any hover styles */
+    background: none; /* Remove background color */
+    color: inherit; /* Ensure text color remains the same */
+    /* Remove any other hover effects like border, transform, etc. */
 }
