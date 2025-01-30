@@ -1313,8 +1313,7 @@ noscript{
     display: none;
 }
 #backtotopbutton article{
-
-    font-size: 1.5rem;
+    font-size: 24px;
     color: var(--color-white);
     font-weight: 400;
     /* width: 200px; */
